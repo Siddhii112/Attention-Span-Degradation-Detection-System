@@ -1,2 +1,3 @@
 # Attention-Span-Degradation-Detection-System
 An intelligent, data-driven framework designed to monitor user interaction metrics in digital environments, classify attention states, and forecast focus trends over time using machine learning and time-series analysis.
+The system implements a dual-layered predictive engine:Classification (Random Forest): Takes a snapshot of current user metrics to classify focus into High, Medium, or Low tiers.  Forecasting (ARIMA): Captures the sequential "momentum" of attention to predict a user's focus path over the next 10–15 minutes, enabling early intervention before a total attention crash occurs.
